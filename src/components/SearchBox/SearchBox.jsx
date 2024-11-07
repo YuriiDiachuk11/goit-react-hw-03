@@ -1,7 +1,7 @@
 const SearchBox = ({ filter, onFilterChange }) => {
   return (
     <div>
-      <label htmlFor="">Find contacts by name</label>
+      <label htmlFor="search">Find contacts by name</label>
       <input
         type="text"
         name="search"
@@ -11,4 +11,5 @@ const SearchBox = ({ filter, onFilterChange }) => {
     </div>
   );
 };
+
 export default SearchBox;
